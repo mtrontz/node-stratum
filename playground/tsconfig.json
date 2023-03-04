@@ -1,0 +1,19 @@
+{
+    "extends": "../tsconfig.json",
+    "files": ["../src", /* "main.ts", "supplemental.ts" */],
+    "compilerOptions": {
+      "allowUnreachableCode": false,
+      "alwaysStrict": true,
+      "allowUnusedLabels": false,
+      "declaration": true,
+      "declarationDir": "../dist/d.ts/",
+      "downlevelIteration": false,
+      "emitDeclarationOnly": false,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "importsNotUsedAsValues": "error",
+      "isolatedModules": true,
+      "lib": ["ES2015", "WebWorker"],
+      "outDir": "../dist"
+    }
+  }

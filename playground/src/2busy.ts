@@ -1,5 +1,14 @@
-/*
-import * as pc from 'node:process'
+import * as pc from 'node:process';
+import * as timers from "node:timers/promises";
+import * as v8 from "node:v8"
+import * as wt from "node:worker_threads"
+import * as os from "node:os"
+import * as net from "node:net"
+
+const node = require("node");
+// import * as x from "node:v8"
+// import * as x from "node:v8"
+// import * as x from "node:v8"
 
 /*
 #include <v8.h>
@@ -133,4 +142,3 @@ extern "C" void init(Handle<Object> target) {
 };
 
 NODE_MODULE(toobusy, init);
-*/
